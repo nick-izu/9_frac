@@ -1,7 +1,7 @@
 //==============================================================================
 //Gereral Options & Fracture Network Parameters: 
 
-stopCondition: 0
+stopCondition: 1
     /* 0: stop once nPoly fractures are accepted (Defined below)
        1: stop once all family's p32 values are equal or greater than the families
                    target p32 values (defined in stochastic family sections)
