@@ -1,3 +1,3 @@
-dfnGen /dfnWorks/examples/4frac_ade/gen_4_user_ellipses.dat
-dfnFlow /dfnWorks/examples/4frac_ade/dfn_explicit.in
-dfnTrans /None/none
+dfnGen /dfnWorks/examples/9_frac/gen_4_user_ellipses.dat
+dfnFlow /dfnWorks/examples/9_frac/dfn_explicit.in
+dfnTrans /dfnWorks/examples/9_frac/PTDFN_control.dat
