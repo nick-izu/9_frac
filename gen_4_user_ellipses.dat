@@ -399,7 +399,7 @@ userEllipsesOnOff: 1    //0 - User Ellipses off
                         //1 - User Ellipses on
 
 
-UserEll_Input_File_Path: /dfnWorks/examples/4frac_ade/define_4_user_ellipses.dat
+UserEll_Input_File_Path: /dfnWorks/examples/9_frac/define_4_user_ellipses.dat
 
 /*===========================================================================*/
 /*===========================================================================*/
