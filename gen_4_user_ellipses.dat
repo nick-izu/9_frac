@@ -7,7 +7,7 @@ stopCondition: 0
                    target p32 values (defined in stochastic family sections)
     */             
 
-nPoly: 3
+nPoly: 9
      /* Used when stopCondition = 0
            Total number of fractures you would like to have 
             in the domain you defined. The program will complete 
@@ -56,7 +56,7 @@ regions:
 
 orientationOption: 0 // Fracture Orientations will be defined using Trend/Plunge
 
-h: 3
+h: 1
   /* Minimum fracture length scale(meters)
     Any fracture with a feature, such as and intersection, of less than h will be rejected. */
 
@@ -166,7 +166,7 @@ famProb: {.5,.5}
 /*===========================================================================*/
 
 //Number of ellipse families
-nFamEll: 0
+nFamEll: 1
     //Having this option = 0 will ignore all rectangle family variables
 
 eLayer: {0,0}
