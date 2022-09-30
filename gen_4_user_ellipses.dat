@@ -139,7 +139,7 @@ rejectsPerFracture: 10  /*If fracture is rejected, it will be re-translated to a
 
 //user rectangles and user Ellipses defined in their cooresponding files
 
-famProb: {.5,.5} 
+famProb: {0.5, 0.5} 
 /* Probability of occurrence of each family of randomly distrubuted rectangles
    and ellipses.
    User-ellipses and user-rectangles insertion will be attempted with 100% 
@@ -166,7 +166,7 @@ famProb: {.5,.5}
 /*===========================================================================*/
 
 //Number of ellipse families
-nFamEll: 1
+nFamEll: 2
     //Having this option = 0 will ignore all rectangle family variables
 
 eLayer: {0,0}
@@ -176,21 +176,21 @@ eLayer: {0,0}
      1 corresponts to the first layer listed, 2 is the next layer listed, etc */
 
 //edist is a mandatory parameter if using statistically generated ellipses 
-edistr: {2,3}   /* Ellipse statistical distribution options:
+edistr: {2, 2}   /* Ellipse statistical distribution options:
                       1 - lognormal distribution
                       2 - truncated power law distribution   
                       3 - exponential distribution
                       4 - constant */
                                                                                        
                       
-ebetaDistribution: {1,1}   /* Beta is the rotation around the polygon's normal
+ebetaDistribution: {1, 1}   /* Beta is the rotation around the polygon's normal
                     vector, with the polygon centered on x-y plane at the orgin 
                     
                     0 - uniform distribution [0, 2PI]    
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {.1,.1} 
+e_p32Targets: {0.1, 0.08} 
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
@@ -262,13 +262,13 @@ econst: {10, 10, 10}  // Constant radius, defined per family
 // NOTE: Number of elements must match number 
 //       of ellipse families (first number in nShape)
 
-emin: {1} // Minimum radius for each ellipse family. 
+emin: {30, 30} // Minimum radius for each ellipse family. 
              // For power law distributions. 
 
-emax: {6}  // Maximum radius for each ellipse family.
+emax: {564, 564}  // Maximum radius for each ellipse family.
                   // For power law distributions. 
                     
-ealpha: {2.4} // Alpha. Used in truncated power-law 
+ealpha: {2.4, 2.4} // Alpha. Used in truncated power-law 
                         // distribution calculation
 
 
