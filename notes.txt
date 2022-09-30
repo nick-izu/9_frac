@@ -1,1 +1,1 @@
-python run_flow.py -name /dfnWorks/work/4frac_ade -input 4_user_defined_ellipses.txt -ncpu 4
+python run_flow.py -name /dfnWorks/work/9_frac -input 4_user_defined_ellipses.txt -ncpu 4
