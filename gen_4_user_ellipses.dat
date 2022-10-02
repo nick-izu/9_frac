@@ -190,7 +190,7 @@ ebetaDistribution: {1, 1}   /* Beta is the rotation around the polygon's normal
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {0.1, 0.08} 
+e_p32Targets:  {0.002, 0.001}
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
@@ -262,7 +262,7 @@ econst: {10, 10, 10}  // Constant radius, defined per family
 // NOTE: Number of elements must match number 
 //       of ellipse families (first number in nShape)
 
-emin: {30, 30} // Minimum radius for each ellipse family. 
+emin: {350, 350} // Minimum radius for each ellipse family. 
              // For power law distributions. 
 
 emax: {564, 564}  // Maximum radius for each ellipse family.
